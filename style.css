@@ -1,0 +1,95 @@
+body
+{
+    background-color: antiquewhite;
+}
+form{
+    width: 380px;
+    margin: 0 auto;
+}
+form div
+{
+    margin-bottom: 30px;
+}
+label
+{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 13px;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(182, 121, 238);
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(164, 3, 86);
+}
+a{
+    display: block;
+    text-align: center;
+    color: #731067;
+    text-decoration: none;
+    margin-top: -5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+div > label
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0;
+}
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+position: relative;
+bottom: 27px;
+border: black solid;
+width: 30px;
+left: 170px;
+}
+input[type="checkbox"]
+{
+background-color: #731067;
+}
+label[for="remeber"]{
+    text-align: center;
+    margin-top: -20px;
+    margin-right: 190px;
+}
+
+label[for="remeber"]
+{
+    color: #731067;
+}
+div>svg
+{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 110px;
+   
+}
+.bi.bi-facebook{
+    width: 40px;
+    height: 50px;
+}
+.bi.bi-instagram{
+    width: 40px;
+    height: 50px;
+    position: relative;
+}
